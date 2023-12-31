@@ -1,0 +1,23 @@
+{
+  "name": "fffc",
+  "version": "1.0.0",
+  "description": "Flat file conversion, integration for UVic's finance dept.",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.56.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "lint": "eslint ./src/* --ext ..ts,.tsx",
+    "lint:fix": "eslint src/ --ext .ts,.tsx --fix",
+    "watch": "tsc -w",
+    "start": "nodemon ./dist/index.js",
+    "dev": "concurrently \"npm run watch\" \"npm run start\""
+  }
+}
