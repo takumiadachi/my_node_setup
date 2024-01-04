@@ -1,6 +1,7 @@
-# My Node setup
+# Finance Flat File Conversion
 
-This is a template for getting started on development in node env.
+This project is to streamline converting flat files to something workable for the finance department
+
 
 ## Scratchpad
 ```
