@@ -1,0 +1,16 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["eslint:recommended", "google"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module", // Allows for the use of imports
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+      // Add any specific rules or override here
+  },
+  "env": {
+      "node": true, // Define node as the environment if you are using Node.js
+      "es6": true
+  }
+}
